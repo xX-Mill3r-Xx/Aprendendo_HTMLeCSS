@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+
+        /*
+            SIMBOLOS E SEUS SIGNIFICADOS EM CSS
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children (Filho)
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none; /*Tira o sublinhado*/
+            font-weight: bold;
+        }
+
+        a:visited{ /*Quando o site ja foi visitado*/
+            color: blueviolet;
+        }
+
+        a:hover{
+            color: orangered;
+            text-decoration: underline;
+        }
+
+        a:active{ /*Cor que fica quando o link é clicado*/
+            color: orangered;
+        }
+
+        a::before{
+            content: '⇒';
+        }
+
+        a::after{
+            content: '⇐';
+            text-decoration: none;
+            font-weight: normal;
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/xX-Mill3r-Xx" target="_blank">Repositorio GitHub</li></a>
+        <li><a href="https://www.youtube.com/channel/UCH1YeZxKlLCfvGNezd7KovQ" target="_blank">Canal no Youtube</li></a>
+        <li><a href="https://www.instagram.com/unknown_profile369/" target="_blank">Instagram</li></a>
+    </ul>
+</body>
+</html>

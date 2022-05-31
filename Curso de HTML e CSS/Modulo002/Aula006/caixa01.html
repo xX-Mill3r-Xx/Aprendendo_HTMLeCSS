@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo sobre box-level</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            /*Colocando paddings - obs.: Siga a ordem colocada aqui - cima=> direita=> esquerda=> baixo*/
+            padding-top: 10px; /*Coloca uma borda invisivel ao redor em cima*/
+            padding-right: 10px; /*Coloca uma borda invisivel ao redor da direita*/
+            padding-left: 10px; /*Coloca uma borda invisivel ao redor da exquerda*/
+            padding-bottom: 10px; /*Coloca uma borda invisivel ao redor em baixo*/
+            /*Colocando margin*/
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 10px;*/
+
+            margin: auto; /*Centraliza os elementos na tela*/
+        }
+        h1{
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+            text-align: center;
+        }
+        h1#t01{
+            background-color: lightblue;
+            color: crimson;
+            border: 1px solid blue;
+            padding: 10px;
+        }
+        p{
+            background-color: lightblue;
+            color: crimson;
+            border: 1px solid blue;
+            padding: 10px;
+        }
+        a{
+            background-color: red;
+            color: white;
+            border: 1px solid red;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <h1 id="t01">&lt;h1&gt; São exemplos de caixas box-level</h1>
+    <p>Paragrafos &lt;p&gt; tambem são exemplos de caixas box-level, mas os &lt;a&gt; <a href="https://github.com/xX-Mill3r-Xx">São exemplos de caixas inline-level</a></p>
+</body>
+</html>
