@@ -1,0 +1,69 @@
+@charset "UTF-8";
+body{ /*Edita o corpo do site*/
+    font-family: Arial, Helvetica, sans-serif; /*Fonte padrao do site*/
+    background-color: lightblue; /*Cor do fundo do site*/
+}
+header{ /*Edita os itens dentro do cabeçalho*/
+    background-color: white; /*Cor de fundo do cabeçalho*/
+    padding: 5px; /*Edita o padding do cabeçalho*/
+    margin: 10px; /*Edita a margem do cabeçalho*/
+    border-radius: 5px; /*Aredondamento das bordas*/
+    box-shadow: 2px 3px 2px black; /*Sombra da caixa do box do cabeçalho*/
+}
+
+h1{ /*Configuraçoes do Titulo*/
+    text-align: center; /*Alinhamento do titulo*/
+    text-shadow: 2px 3px 2px grey; /*Sombra do texto de titulo do site*/
+}
+
+h2{
+    text-shadow: 2px 3px 2px grey; /*Sombra do subtitulo*/
+}
+
+nav{ /*Edita a navbar*/
+    background-color: lightskyblue; /*Cor de fundo da navbar*/
+    text-align: justify; /*Alinhamento Justificado*/
+    padding: 5px; /*Padding da navbar*/
+    border-radius: 5px; /*Aredondamento das bordas*/
+    box-shadow: 2px 3px 2px black; /*Sombra da caixa do box da navbar*/
+}
+
+nav > a{ /*Edita os links que estão dentro da navbar*/
+    text-decoration:  none; /*Tira a linha que fica debaixo dos links da navbar*/
+    color: black; /*Edita a cor dos links da navbar*/
+    margin-right: 10px; /*Edita a margem de distanciamento a direita dos links da navbar*/
+}
+
+nav a:hover{ /*Quando passa o mouse em cima do link*/
+    color: red; /*O link fica em vermelho quando o mouse esta em cima*/
+}
+
+main{ /*Edita os itens que estão dentro do corpo principal*/
+    background-color: white; /*Cor de fundo do corpo principal do site*/
+    height: 720px;
+    padding: 10px; /*Padding do corpo principal*/
+    margin: 10px; /*Margem do corpo principal*/
+    border-radius: 5px; /*Aredondamento das bordas*/
+    box-shadow: 2px 3px 2px black; /*Sombra da caixa do box principal*/
+}
+
+article > aside{ /*Edita o aside que esta dentro do article*/
+    background-color: lightslategray; /*Cor de fundo do aside dentro do article*/
+    color: white; /*Cor da letra dentro do aside*/
+    text-align: center; /*Alinhamento do texto*/
+    border-radius: 5px; /*Aredondamento das bordas*/
+    box-shadow: 2px 3px 2px black; /*Sombra da caixa do aside dentro do article*/
+}
+
+footer{ /*Edita o rodapé da pagina*/
+    background-color: lightskyblue; /*Cor de fundo do rodapé da pagina*/
+    padding: 1px; /*Padding do rodapé*/
+    margin: 10px; /*Margem do rodapé*/
+    text-align: center; /*Alinhameno do texto*/
+    border-radius: 5px; /*Aredondamento das bordas*/
+    box-shadow: 2px 3px 2px black; /*Sombra da caixa do rodapé da pagina*/
+}
+
+footer > p{
+    margin: 1px;
+}
