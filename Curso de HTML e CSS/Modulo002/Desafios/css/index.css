@@ -11,8 +11,6 @@
     padding: 0px;
 }
 
-
-
 /*
     #c5ebd6 verde mais claro
     #83elad
@@ -91,6 +89,23 @@ main{
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px black;
     font-family: var(--font-padrao);
+}
+
+div.video{
+    background-color: var(--corcinco);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+    box-shadow: 2px 2px 2px black;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 3%;
+    left: 13px;
+    width: 95%;
+    height: 95%;
 }
 
 main h1{
