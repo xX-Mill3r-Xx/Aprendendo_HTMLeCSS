@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-image: url('../img/wallpaper004.jpg'); /*Colocar plano de fundo no site*/
+}
+
+div{
+    padding: auto;
+    margin: auto;
+}
+
+div.quadrado{
+    display: inline-block; /*deixa um do lado do outro*/
+    border-radius: 5px;
+    background-color: lightslategray;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 2px 3px black;
+}
+
+
+div#q1{
+    background-color: skyblue; /*Primeira maneira de personalizar o fundo*/
+}
+
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red); /*Segunda maneira de personalizar o fundo*/
+}
+
+div#q3{
+    background-image: url('../img/pattern003.png'); /*Terceira maneira de personalizar o fundo*/
+}

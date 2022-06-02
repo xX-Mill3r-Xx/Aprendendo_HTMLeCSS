@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*Colocando imagens de fontes externas*/
+body{
+    background-image: url('https://1.bp.blogspot.com/-HE7KhgjVeC8/XdmMDnUELzI/AAAAAAAAfzI/5BcR54uHKl8OD8egZwi6bpEcfFqS-UEBwCLcBGAsYHQ/s2560/sunrise-sunset-road-9m-2560x1440.jpg');
+    /*background-size: 100px 100px;*/ /*Define o tamanho da imagem de fundo*/
+    /*background-repeat: no-repeat;*/ /*Define se a imagem vai ou não se repetir*/
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
