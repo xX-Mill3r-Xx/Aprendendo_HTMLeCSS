@@ -1,0 +1,37 @@
+body{
+    height: 90vh;
+    border: 1px dashed black;
+    background-image: url('img/pattern001.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+div.bloco{
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: url('img/wallpaper002.jpg');
+}
+
+div#q1{
+    background-position: right top; /*Alinha a imagem a direita*/
+}
+
+div#q2{
+    background-position: center center; /*Alinha a imagem ao centro*/
+}
+
+div#q3{
+    background-position: left bottom; /*Alinha a imagem a esquerda*/
+}
+
+h1{
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px black;
+}
+
