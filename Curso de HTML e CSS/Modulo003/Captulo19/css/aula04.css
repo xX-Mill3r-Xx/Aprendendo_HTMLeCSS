@@ -5,15 +5,25 @@ body{
     background-image: url('../img/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; /*Mantem o fun sem distorcer nem mostrar as falhas laterais e de fundo*/
+    background-attachment: fixed; /*Mantem o fun fixo*/
+
+    /*Short hand background*/
+    /*Color - image - position - repeat - size - attachment*/
+
+    /*background: black url('../img/wallpaper002.jpg') center center no-repeat cover fixed;*/
 }
 
 main{
     background-color: white;
     color: black;
-    width: 400px;
+    max-width: 700px;
     padding: 10px;
     margin: auto;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+main h1{
+    text-align: center;
 }
