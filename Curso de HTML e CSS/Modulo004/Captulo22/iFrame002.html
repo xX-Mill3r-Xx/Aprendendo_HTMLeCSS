@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando o uso dos iFrames</title>
+    <style>
+        /*
+            No caso dos iFrames, as CSS são soberanas.
+            Isso significa que, as css terão prioridade em relação ao codigo HTML neste caso;
+        */
+        iframe{
+            width: 500px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando o uso dos iFrames</h1>
+    <!--
+        O tamanho padrao de um iFrame é de 300x150px
+    -->
+    <p>
+        Acessando um site
+        <iframe src="https://www.cursoemvideo.com" frameborder="0">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em video</a>
+        </iframe>
+        para testar o uso de iFrames via iframes
+    </p>
+
+    <p>
+        Mudando o tamanho do Iframe
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" height="500" width="350">
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em video</a>
+        </iframe>
+        para testar o Redmensionamento
+    </p>
+</body>
+</html>
